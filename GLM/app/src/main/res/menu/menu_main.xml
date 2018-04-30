@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="seclass.qc.edu.glm.Activities.MainActivity">
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_groceryLists"
+        android:orderInCategory="100"
+        android:title="@string/action_groceryLists"
+        />
+
+    <item
+        android:id="@+id/action_databaseManager"
+        android:orderInCategory="200"
+        android:title="@string/action_databaseManager"
+        />
+
+    <item
+        android:id="@+id/action_reset_database"
+        android:orderInCategory="300"
+        android:title="@string/reset_database_title"
+        />
+
+    <item
+        android:id="@+id/action_search_activity"
+        android:orderInCategory="300"
+        android:title="@string/action_search_activity"
+        />
+
+
+
+</menu>
